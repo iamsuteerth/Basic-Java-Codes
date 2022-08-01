@@ -4,4 +4,6 @@ This repo contains a compilation of all the programs I have made during my Java 
 ## Please navigate to the \src\edu\vit\corejava\basics directory to access all the java codes.
 >Simple nomenclature has been used for program names to give you an idea as to what the program is about.
 
+>You can access challenges in the challenges folder located at \src\edu\vit\corejava\challenges
+
 ### Feel free to clone the repository and access the codes.
