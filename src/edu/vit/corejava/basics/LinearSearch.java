@@ -22,18 +22,18 @@ public class LinearSearch {
         for (i = 0; i < size; i++) 
         {
             System.out.println("Enter element " + (i + 1));
-            list.add(sc.nextLine().toLowerCase().toString());
+            list.add(sc.nextLine().toLowerCase().toString()); // To maintain uniformity, we will stick to lowercase only for this program
         }
         System.out.println("\nEnterered List");
         for (i = 0; i < (int) list.size(); i++) 
         {
-            System.out.println("Element "+(i+1)+" "+list.get(i));
+            System.out.println("Element "+(i+1)+" "+list.get(i)); // i+1 corresponds to position, not index
         }
         System.out.println("Enter element you want to search for ");
         key = sc.nextLine().toLowerCase();
         for (i = 0; i < (int) list.size(); i++) 
         {
-            if(key.equals(list.get(i)))
+            if(key.equals(list.get(i))) // We are using the equals method to compare strings
             {
                 System.out.println("Match at position "+(i+1)+" Element "+key);
                 flag++;

@@ -13,7 +13,7 @@ public class TriangularNumbers {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter how many triangular numbers do you want to print.");
         int n = sc.nextInt();
-        int num = 0;
+        int num = 0; //Triangular Numbers are series of numbers obtained by summation of natural numbers
         for (int i = 1; i <= n; i++) {
             num += i;
             System.out.println(num);

@@ -1,5 +1,3 @@
-package edu.vit.corejava.basics;
-
 /*
  * First Java Program, standard in any programming language
  * @author Suteerth Subramaniam
@@ -7,6 +5,7 @@ package edu.vit.corejava.basics;
  * 
  * @word - annotations - for specific functionalities 
  */
+package edu.vit.corejava.basics;
 
 public class HelloWorld {
     public static void main(String[] args ) 
