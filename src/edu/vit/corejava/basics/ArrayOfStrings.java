@@ -1,4 +1,5 @@
 /*
+ * @author Suteerth Subramaniam
  * This program shows how we can deal with array of strings, both fixed and mutable.
  */
 package edu.vit.corejava.basics;

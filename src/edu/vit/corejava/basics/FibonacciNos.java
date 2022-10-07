@@ -1,7 +1,7 @@
 /*
+ * @author Suteerth Subramaniam
  * One of the most simple programs one can make in java, that is program to return nth fibonacci number
  * Methods are used in this program, taking both approaches to the problem
- * @author Suteerth Subramaniam
  */
 package edu.vit.corejava.basics;
 
@@ -38,18 +38,22 @@ public class FibonacciNos {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the range of fibonacci");
-        int n = sc.nextInt();
-        for (; n <= 0;) {
-            System.out.println("Enter proper integer value");
+        int n;
+        // Please don't be itimidated by this try block, the code will work just fine without it
+        // This is called try with resources, it is used to make sure the Scanner we created is closed after it's work is
+        // done, therefore it is there in the code so VSC doesn't keep bothering me
+        try(Scanner sc = new Scanner(System.in);){
+            System.out.println("Enter the range of fibonacci");
             n = sc.nextInt();
+            for (; n <= 0;) {
+                System.out.println("Enter proper integer value");
+                n = sc.nextInt();
+            }
         }
         System.out.println(n+"th Fibonacci is " + recursive_fibonacci(n)); // Obtaining the Nth fibonacci using recursive function
         System.out.println(n+"th Fibonacci is " + iterative_fibonacci(n)); // Obtaining the Nth fibonacci using iterative function
         System.out.println();
         System.out.println("Series");
         fibonacci_series(n);
-        sc.close();
     }
 }

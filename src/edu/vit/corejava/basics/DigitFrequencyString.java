@@ -1,7 +1,7 @@
 /*
+ * @author Suteerth Subramaniam
  * This program calculates the frequency of numbers occurring in a string using ASCII values. A simple algorithm is applied here.
  * There are more efficient ways to solve this problem but we will look at a method involving various topics.
- * @author Suteerth Subramaniam
  */
 package edu.vit.corejava.basics;
 

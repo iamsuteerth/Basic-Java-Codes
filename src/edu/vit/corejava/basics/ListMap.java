@@ -2,9 +2,9 @@ package edu.vit.corejava.basics;
 
 import java.util.*;
 /*
- * Java program demonstrating basic list and map functionality.
  * @author Suteerth Subramaniam
  * @since 21 July 2022
+ * Java program demonstrating basic list and map functionality.
  */
 
 public class ListMap {

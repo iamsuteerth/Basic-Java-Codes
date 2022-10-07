@@ -1,6 +1,6 @@
-/*
- * This program showcases the SIMPLEST form of sorting technique involving to for loops
+/* 
  * @author Suteerth Subramaniaam
+ * This program showcases the SIMPLEST form of sorting technique involving to for loops 
  */
 package edu.vit.corejava.basics;
 

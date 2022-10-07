@@ -2,7 +2,7 @@
  * This program covers basics of class and it's methods and objects.
  * @author Suteerth Subramaniam
  */
-package edu.vit.corejava.basics;
+package edu.vit.corejava.oop;
 
 public class ClassObjects {
     public static void main(String[] args) {

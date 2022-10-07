@@ -1,7 +1,7 @@
 /*
+ * @author Suteerh Subramaniam
  * You need to create a class Number which has a number and methods to return T/F on the conditions whether the number IS triangular or NOT
  * & whether it IS a perfect square or NOT
- * @author Suteerh Subramaniam
  */
 package edu.vit.corejava.challenges;
 

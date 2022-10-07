@@ -1,7 +1,7 @@
 /*
+ * @author Suteerth Subramaniam
  * This program is for printing triangular numbers.
  * Simple for loops are used and Scanner classs is used for taking in input from the user.
- * @author Suteerth Subramaniam
  */
 package edu.vit.corejava.basics;
 

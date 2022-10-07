@@ -1,7 +1,7 @@
 /*
+ * @author Suteerth Subramaniam
  * We implement one of the simple sorting techniques slightly better than the most simple sorting i.e. (Bubble Sort)
  * This method is called Insertion sort and the meaning is derivative :D
- * @author Suteerth Subramaniam
  */
 package edu.vit.corejava.basics;
 
@@ -10,18 +10,23 @@ import java.util.Scanner;
 
 public class InsertionSort {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         int[] array;
         int n, key, j, i; 
         // The key is what we will store to create a "hole"
         System.out.println("Enter how many elements do you want to enter");
-        n = sc.nextInt();
-        sc.nextLine();
-        array = new int[n];
-        for (i = 0; i < n; i++) {
-            System.out.println("Enter Element " + i);
-            array[i] = sc.nextInt();
-        }
+        // Please don't be itimidated by this try block, the code will work just fine without it
+        // This is called try with resources, it is used to make sure the Scanner we created is closed after it's work is
+        // done, therefore it is there in the code so VSC doesn't keep bothering me
+        try (Scanner sc = new Scanner(System.in)) {
+            n = sc.nextInt();
+            sc.nextLine();
+            array = new int[n];
+            for (i = 0; i < n; i++) {
+                System.out.println("Enter Element " + i);
+                array[i] = sc.nextInt();
+            }
+        } 
+        
         System.out.println("Unsorted Array");
         System.out.println(Arrays.toString(array) + "\n");
         // Now we perform insertion sort, keep this fact in mind that one element is always sorted in an array :D
@@ -35,6 +40,5 @@ public class InsertionSort {
             array[j + 1] = key; // We use j+1 here because the actual place where we have to place our key is one index behind of what we want
         }
         System.out.println(Arrays.toString(array));
-        sc.close();
     }
 }

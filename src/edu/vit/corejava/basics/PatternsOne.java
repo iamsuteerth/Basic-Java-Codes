@@ -1,7 +1,7 @@
 /*
+ * @author Suteerth Subramaniam
  * This program showcases looping techniques through various patterns which are described in comments.
  * 
- * @author Suteerth Subramaniam
  */
 
 package edu.vit.corejava.basics;
