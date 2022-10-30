@@ -11,7 +11,8 @@ import java.math.BigInteger;
 import java.util.HashSet;
 import java.util.Set;
 import static java.lang.System.*;
-
+// This is our main code
+// We are using BigInteger class 
 class Prime {
     public void checkPrime(Integer... nums) {
         for (Integer i : nums) {
